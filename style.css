@@ -11,6 +11,10 @@ body {
   background-position: top center;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .container {
   max-width: 928px;
   margin: 0 auto;
