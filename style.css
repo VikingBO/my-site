@@ -2,13 +2,12 @@ body {
   margin: 0;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
+  /*font-family: "Orbitron", "Helvetica", "Arial", sans-serif;*/
   font-size: 16px;
   line-height: 32px;
-  color: #222222;
-  background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
-  background-repeat: no-repeat;
-  background-position: top center;
+  color: #6dedfd;
+  background: url("img/hero-bg_1.jpg") top center no-repeat, #161717;
+  background-blend-mode: luminosity;
 }
 
 ul li {
@@ -34,7 +33,7 @@ ul li {
 
 .page-header a {
   margin-left: 56px;
-  color: #288be6;
+  color: #6dedfd;
   text-decoration: none;
   background-repeat: no-repeat;
   background-position: left;
@@ -49,9 +48,14 @@ ul li {
   padding-left: 25px;
   background-image: url("img/icon-phone-header.svg");
 }
+.header-telegram {
+  padding-left: 28px;
+  background-image: url("img/icon-telegram-header.svg");
+}
 
 .hero-image {
   margin-bottom: 620px;
+  text-shadow: 1px 0px 2px #6dedfd, 0px 1px 2px #6dedfd, -1px 0px 2px #6dedfd, 0px -1px 2px #6dedfd;
 }
 
 .hero-image .container {
@@ -175,7 +179,7 @@ ul li {
 
 .page-footer {
   padding: 40px 0;
-  background-color: #00417d;
+  background-color: #001c35;
   color: #ffffff;
 }
 
@@ -195,4 +199,9 @@ ul li {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone-footer.svg");
+}
+
+.footer-telegram {
+  padding-left: 28px;
+  background-image: url("img/icon-telegram-footer.svg");
 }
