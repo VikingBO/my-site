@@ -54,7 +54,7 @@ ul li {
 }
 
 .hero-image {
-  margin-bottom: 620px;
+  margin-bottom: 690px;
   text-shadow: 1px 0px 2px #6dedfd, 0px 1px 2px #6dedfd, -1px 0px 2px #6dedfd, 0px -1px 2px #6dedfd;
 }
 
@@ -88,6 +88,9 @@ ul li {
   line-height: 80px;
   font-weight: 400;
   text-align: center;
+}
+.subheading figure {
+  margin: 0;
 }
 
 .user-image {
